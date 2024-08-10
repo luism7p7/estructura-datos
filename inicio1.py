@@ -7,3 +7,8 @@ if edad <= 18:
 else:
     print("puedes entrar")
 #edad=2
+
+#preguntar el nombre y mostrar por panalla la edad y el nombre
+nombre = input("ingrese su nombre: ")
+print("Su nombre es " + nombre + " y su edad es " + str(edad))
+181
