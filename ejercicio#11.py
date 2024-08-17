@@ -1,0 +1,11 @@
+deposito=int(input('cunato has depositado en tu cuenta de ahorros'))
+interez=float(0.04)
+total1=round(deposito*(1+interez),2)
+total2=round(total1*(1+interez),2)
+total3=round(total2*(1+interez),2)
+
+print('interez cantidad de ahorros para el primer ahorro con el interez a favor es:',total1)
+print('_____________________________________________________________________________')
+print('tu cantidad de ahorros para el segundo ahorro con el interez a favor es:',total2)
+print('_____________________________________________________________________________')
+print('tu cantidad de ahorros para el tercer ahorro con el interez a favor es:',total3)
