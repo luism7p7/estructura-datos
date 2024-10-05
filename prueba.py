@@ -34,7 +34,7 @@ def prioridad_simulacion(tareas):
     tiempo_total = 0
     for tarea in tareas:
         print(f"Procesando {tarea}...")
-        time.sleep(0.5)  # Simula el tiempo de procesamiento
+        time.sleep(1)  # Simula el tiempo de procesamiento
         tiempo_total += tarea.duracion
         print(f"Tarea completada. Tiempo total: {tiempo_total} segundos")
 
