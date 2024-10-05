@@ -1,0 +1,1 @@
+almacenar=int(str(input(("nombre del archivo a guardar"))))
